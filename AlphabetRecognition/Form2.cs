@@ -87,13 +87,13 @@ namespace KNN_Training
             return grayscale_data;
         }
 
-        private bool[,] Biner(int[,] gray_data, int width, int height)
+        private bool[,] Biner(int[,] gray_data)
         {
-            bool[,] binary_data = new bool[width, height];
+            bool[,] binary_data = new bool[gray_data.GetLength(0), gray_data.GetLength(1)];
 
-            for (int y = 0; y < height; y++)
+            for (int y = 0; y < gray_data.GetLength(1); y++)
             {
-                for (int x = 0; x < width; x++)
+                for (int x = 0; x < gray_data.GetLength(0); x++)
                 {
                     if (gray_data[x, y] > 127)
                     {
@@ -109,7 +109,7 @@ namespace KNN_Training
             return binary_data;
         }
 
-        boundary BoundingBox(bool[,] biner, int width, int height)
+        boundary BoundingBox(bool[,] biner)
         {
             int xmintemp, xmaxtemp;
             int ymintemp, ymaxtemp;
@@ -121,9 +121,9 @@ namespace KNN_Training
             boundingBox.ymin = 0;
             boundingBox.ymax = 0;
 
-            for (int y = 0; y < height; y++)
+            for (int y = 0; y < biner.GetLength(1); y++)
             {
-                for (int x = 0; x < width; x++)
+                for (int x = 0; x < biner.GetLength(0); x++)
                 {
                     if (biner[x, y] == false)
                     {
@@ -264,8 +264,8 @@ namespace KNN_Training
                     int height = bmp.Height;
 
                     int[,] gray_data = Grayscale(width, height);
-                    bool[,] biner_data = Biner(gray_data, width, height);
-                    boundary boundingBox = BoundingBox(biner_data, width, height);
+                    bool[,] biner_data = Biner(gray_data);
+                    boundary boundingBox = BoundingBox(biner_data);
                     matrixPopulation = Population(boundingBox, biner_data);
 
                     Classify();
