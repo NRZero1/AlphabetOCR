@@ -35,8 +35,6 @@ namespace KNN_Training
             this.openTestImageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.runToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.label2 = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
@@ -50,7 +48,6 @@ namespace KNN_Training
             this.panel1 = new System.Windows.Forms.Panel();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -99,42 +96,16 @@ namespace KNN_Training
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 75);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 40);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 25;
             this.dataGridView1.Size = new System.Drawing.Size(369, 199);
             this.dataGridView1.TabIndex = 1;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 34);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(14, 15);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "K";
-            // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.Location = new System.Drawing.Point(32, 32);
-            this.numericUpDown1.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(35, 23);
-            this.numericUpDown1.TabIndex = 4;
-            this.numericUpDown1.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 290);
+            this.label2.Location = new System.Drawing.Point(12, 255);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(103, 15);
             this.label2.TabIndex = 5;
@@ -142,7 +113,7 @@ namespace KNN_Training
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(12, 320);
+            this.richTextBox1.Location = new System.Drawing.Point(12, 285);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(142, 96);
             this.richTextBox1.TabIndex = 6;
@@ -150,7 +121,7 @@ namespace KNN_Training
             // 
             // richTextBox2
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(186, 320);
+            this.richTextBox2.Location = new System.Drawing.Point(186, 285);
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.Size = new System.Drawing.Size(142, 96);
             this.richTextBox2.TabIndex = 8;
@@ -159,7 +130,7 @@ namespace KNN_Training
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(186, 290);
+            this.label3.Location = new System.Drawing.Point(186, 255);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(36, 15);
             this.label3.TabIndex = 7;
@@ -167,7 +138,7 @@ namespace KNN_Training
             // 
             // richTextBox3
             // 
-            this.richTextBox3.Location = new System.Drawing.Point(368, 320);
+            this.richTextBox3.Location = new System.Drawing.Point(368, 285);
             this.richTextBox3.Name = "richTextBox3";
             this.richTextBox3.Size = new System.Drawing.Size(142, 96);
             this.richTextBox3.TabIndex = 10;
@@ -176,7 +147,7 @@ namespace KNN_Training
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(368, 290);
+            this.label4.Location = new System.Drawing.Point(368, 255);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(58, 15);
             this.label4.TabIndex = 9;
@@ -184,7 +155,7 @@ namespace KNN_Training
             // 
             // richTextBox4
             // 
-            this.richTextBox4.Location = new System.Drawing.Point(540, 320);
+            this.richTextBox4.Location = new System.Drawing.Point(540, 285);
             this.richTextBox4.Name = "richTextBox4";
             this.richTextBox4.Size = new System.Drawing.Size(142, 96);
             this.richTextBox4.TabIndex = 12;
@@ -193,7 +164,7 @@ namespace KNN_Training
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(540, 290);
+            this.label5.Location = new System.Drawing.Point(540, 255);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(112, 15);
             this.label5.TabIndex = 11;
@@ -216,7 +187,7 @@ namespace KNN_Training
             this.panel1.AutoScroll = true;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(410, 75);
+            this.panel1.Location = new System.Drawing.Point(410, 40);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(272, 199);
             this.panel1.TabIndex = 14;
@@ -225,7 +196,7 @@ namespace KNN_Training
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(707, 450);
+            this.ClientSize = new System.Drawing.Size(707, 394);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.richTextBox4);
             this.Controls.Add(this.label5);
@@ -235,8 +206,6 @@ namespace KNN_Training
             this.Controls.Add(this.label3);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.numericUpDown1);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -245,7 +214,6 @@ namespace KNN_Training
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -261,8 +229,6 @@ namespace KNN_Training
         private System.Windows.Forms.ToolStripMenuItem openTestImageToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem runToolStripMenuItem;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.RichTextBox richTextBox2;

@@ -341,7 +341,7 @@ namespace KNN_Training
                 distanceList[n] += distanceRatio;
             }
 
-            int k = Convert.ToInt16(numericUpDown1.Value);
+            int k = 3;
 
             double[] distanceListTemp = new double[distanceList.Length];
             int[] bestIndex = new int[k];
