@@ -61,9 +61,9 @@ namespace KNN_Training
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(-1, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(453, 327);
+            this.pictureBox1.Size = new System.Drawing.Size(810, 578);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
@@ -113,35 +113,35 @@ namespace KNN_Training
             // openCSVToolStripMenuItem
             // 
             this.openCSVToolStripMenuItem.Name = "openCSVToolStripMenuItem";
-            this.openCSVToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.openCSVToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
             this.openCSVToolStripMenuItem.Text = "Open CSV";
             this.openCSVToolStripMenuItem.Click += new System.EventHandler(this.openCSVToolStripMenuItem_Click);
             // 
             // openImageToolStripMenuItem
             // 
             this.openImageToolStripMenuItem.Name = "openImageToolStripMenuItem";
-            this.openImageToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.openImageToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
             this.openImageToolStripMenuItem.Text = "Open Image";
             this.openImageToolStripMenuItem.Click += new System.EventHandler(this.openImageToolStripMenuItem_Click);
             // 
             // saveDataToolStripMenuItem
             // 
             this.saveDataToolStripMenuItem.Name = "saveDataToolStripMenuItem";
-            this.saveDataToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveDataToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
             this.saveDataToolStripMenuItem.Text = "Save Data";
             this.saveDataToolStripMenuItem.Click += new System.EventHandler(this.saveDataToolStripMenuItem_Click);
             // 
             // showCSVToolStripMenuItem
             // 
             this.showCSVToolStripMenuItem.Name = "showCSVToolStripMenuItem";
-            this.showCSVToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.showCSVToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
             this.showCSVToolStripMenuItem.Text = "Show CSV";
             this.showCSVToolStripMenuItem.Click += new System.EventHandler(this.showCSVToolStripMenuItem_Click);
             // 
             // testKNNToolStripMenuItem
             // 
             this.testKNNToolStripMenuItem.Name = "testKNNToolStripMenuItem";
-            this.testKNNToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.testKNNToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
             this.testKNNToolStripMenuItem.Text = "Test KNN";
             this.testKNNToolStripMenuItem.Click += new System.EventHandler(this.testKNNToolStripMenuItem_Click);
             // 
