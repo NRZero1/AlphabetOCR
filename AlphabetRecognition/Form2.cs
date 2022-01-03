@@ -285,15 +285,15 @@ namespace KNN_Training
         {
             List<string> populationListShaped = new List<string>();
             List<double> AspectRatio = new List<double>();
-            List<string> japaneseCharacter = new List<string>();
+            List<string> Character = new List<string>();
 
             for (int i = 1; i < lines.Length; i++)
             {
                 string[] rowData = lines[i].Split(',');
 
-                double a = Convert.ToDouble(rowData[3]);
-                populationListShaped.Add(rowData[2]);
-                japaneseCharacter.Add(rowData[4]);
+                double a = Convert.ToDouble(rowData[2]);
+                populationListShaped.Add(rowData[1]);
+                Character.Add(rowData[0]);
                 AspectRatio.Add(a);
             }
 
@@ -369,22 +369,22 @@ namespace KNN_Training
             for (int i = 0; i < k; i ++)
             {
                 richTextBox2.Text += bestIndex[i] + "\r\n";
-                richTextBox3.Text += japaneseCharacter[bestIndex[i]] + "\r\n";
+                richTextBox3.Text += Character[bestIndex[i]] + "\r\n";
             }
 
             int count = 1;
             int tempCount;
-            string frequentCharacter = japaneseCharacter[bestIndex[0]];
+            string frequentCharacter = Character[bestIndex[0]];
             string tempCharacter;
 
             for (int i = 0; i < k; i ++)
             {
-                tempCharacter = japaneseCharacter[bestIndex[i]];
+                tempCharacter = Character[bestIndex[i]];
                 tempCount = 0;
                 
                 for (int j = 0; j < k; j ++)
                 {
-                    if (tempCharacter == japaneseCharacter[bestIndex[j]])
+                    if (tempCharacter == Character[bestIndex[j]])
                     {
                         tempCount++;
                     }
