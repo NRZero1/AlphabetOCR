@@ -174,7 +174,7 @@ namespace KNN_Training
             // 
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(393, 275);
+            this.pictureBox1.Size = new System.Drawing.Size(719, 491);
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
             // 
