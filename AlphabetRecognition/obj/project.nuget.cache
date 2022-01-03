@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "DZ+knaAJWhg37nqiTEMdczFILb/YzZEhpw622Cs+aGr9hByaydfH2GPfa4q5Qk2W+uF1XFe2gxi8Rmt7q5CHkQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\USER\\Downloads\\UBM\\Semester 7\\Komputer Vision\\UAS\\C#\\AlphabetRecognition\\AlphabetRecognition.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
