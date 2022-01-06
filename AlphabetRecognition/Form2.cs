@@ -27,7 +27,7 @@ namespace KNN_Training
             if (openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                 CSVFileName = openFileDialog1.FileName;
-                lines = System.IO.File.ReadAllLines(CSVFileName, System.Text.Encoding.GetEncoding(932));
+                lines = System.IO.File.ReadAllLines(CSVFileName, System.Text.Encoding.UTF8);
                 DataTable dt = new DataTable();
 
                 if (lines.Length > 0)

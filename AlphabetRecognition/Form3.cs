@@ -21,7 +21,7 @@ namespace KNN_Training
         {
             //System.Text.Encoding.RegisterProvider(System.Text.CodePagesEncodingProvider.Instance);
             DataTable dt = new DataTable();
-            string[] lines = System.IO.File.ReadAllLines(filePath, System.Text.Encoding.GetEncoding(932));
+            string[] lines = System.IO.File.ReadAllLines(filePath, System.Text.Encoding.UTF8);
 
             if (lines.Length > 0)
             {

@@ -1,0 +1,2 @@
+C:\Users\USER\Downloads\UBM\Semester 7\Komputer Vision\UAS\C#\AlphabetRecognition\bin\Release\netcoreapp3.1\publish\AlphabetRecognition.pdb
+C:\Users\USER\Downloads\UBM\Semester 7\Komputer Vision\UAS\C#\AlphabetRecognition\bin\Release\netcoreapp3.1\publish\AlphabetRecognition.exe

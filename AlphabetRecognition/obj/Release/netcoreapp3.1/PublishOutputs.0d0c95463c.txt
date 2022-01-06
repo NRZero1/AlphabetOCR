@@ -1,0 +1,8 @@
+C:\Users\USER\Downloads\UBM\Semester 7\Komputer Vision\UAS\C#\AlphabetRecognition\bin\Release\netcoreapp3.1\publish\AlphabetRecognition.exe
+C:\Users\USER\Downloads\UBM\Semester 7\Komputer Vision\UAS\C#\AlphabetRecognition\bin\Release\netcoreapp3.1\publish\AlphabetRecognition.dll
+C:\Users\USER\Downloads\UBM\Semester 7\Komputer Vision\UAS\C#\AlphabetRecognition\bin\Release\netcoreapp3.1\publish\AlphabetRecognition.deps.json
+C:\Users\USER\Downloads\UBM\Semester 7\Komputer Vision\UAS\C#\AlphabetRecognition\bin\Release\netcoreapp3.1\publish\AlphabetRecognition.runtimeconfig.json
+C:\Users\USER\Downloads\UBM\Semester 7\Komputer Vision\UAS\C#\AlphabetRecognition\bin\Release\netcoreapp3.1\publish\AlphabetRecognition.pdb
+C:\Users\USER\Downloads\UBM\Semester 7\Komputer Vision\UAS\C#\AlphabetRecognition\bin\Release\netcoreapp3.1\publish\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\USER\Downloads\UBM\Semester 7\Komputer Vision\UAS\C#\AlphabetRecognition\bin\Release\netcoreapp3.1\publish\System.Text.Encoding.CodePages.dll
+C:\Users\USER\Downloads\UBM\Semester 7\Komputer Vision\UAS\C#\AlphabetRecognition\bin\Release\netcoreapp3.1\publish\runtimes\win\lib\netcoreapp3.1\System.Text.Encoding.CodePages.dll

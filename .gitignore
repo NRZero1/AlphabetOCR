@@ -2,3 +2,5 @@
 .vscode
 *.exe
 /Dataset
+/AlphabetRecognition/bin
+/AlphabetRecognition/obj/Dump
