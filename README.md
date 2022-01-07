@@ -14,5 +14,5 @@ File CSV dan image dapat dimuat melalui menu:
 - [Byron Harnope](https://github.com/nopby)
 - [Ridwan Adi Saputra](mailto:s32180061@student.ubm.ac.id)
 - [Derry Leo Nardi](https://github.com/Realch)
-- [Daniel Ronaldo P](https://github.com/NRZero1)
+- [Daniel Ronaldo P](https://github.com/NRZero1) (Ketua Kelompok)
 - [Arvin Christopher](https://github.com/arvinchr)
